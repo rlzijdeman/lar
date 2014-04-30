@@ -12,14 +12,16 @@ Tennekens. Before this function is used, data should be setup in a specific data
 format (see read.lar()).
 }
 \usage{
-draw.lar(data.frame, sex)
+draw.lar(data.frame, sex, mono.chrome)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{data.frame}{A data.frame in labour relations format. Required. See read.lar for more information on the format.}
   \item{sex}{
-  One of "total" (default), "male", "female", to indicate respectively: the 
-  total population, the male population or the female population.
+  One of "total" (default), "male", "female", to indicate respectively: the total population, the male population or the female population.
+  }
+  \item{mono.chrome}{
+  Either FALSE (default) or TRUE. If TRUE, treemap is display in black and white, otherwise in colour.
   }
 }
 
@@ -50,7 +52,8 @@ Netherlands Organisation for Scientific Research (NWO).
   
   ## Treemap with example data set for Spain in 1900
   data(spain.1900)
-  draw.lar(spain.1900)
+  draw.lar(spain.1900) # Treemap for total population
+  draw.lar(spain.1900, sex = "M", mono.chrome = TRUE)
   
   ## Save treemap image as .png
   data(spain.1900)
