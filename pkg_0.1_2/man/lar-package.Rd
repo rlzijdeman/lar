@@ -12,8 +12,8 @@ This package is intended for researchers studying historical labour relations (s
 \tabular{ll}{
 Package: \tab lar\cr
 Type: \tab Package\cr
-Version: \tab 0.1-3\cr
-Date: \tab 2014-04-30\cr
+Version: \tab 0.1-2\cr
+Date: \tab 2014-04-29\cr
 License: \tab GPL-3\cr
   }
 }
