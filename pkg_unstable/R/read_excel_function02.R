@@ -22,7 +22,7 @@ read.lar <- function(file) {
                                  rep("integer", 3), rep("character", 3),
                                  rep("integer", 2), rep("character", 14),
                                  rep(c("character", "numeric"), 3),
-                                 "character")
+                                 "character"))
   dt  <- data.table(df)
   
   ## issue 1: delete row 1-2 (auxiliairy column headers)
