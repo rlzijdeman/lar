@@ -136,7 +136,7 @@ lar3$bmyear <- ifelse(lar3$year >= 1850 &
                              lar3$year < 1925, 1900, lar3$bmyear)
 lar3$bmyear <- ifelse(lar3$year >= 1925 & 
                              lar3$year < 1975, 1950, lar3$bmyear)
-lar3$bmyear <- ifelse(lar3$year >= 1950 & 
+lar3$bmyear <- ifelse(lar3$year >= 1975 & 
                              lar3$year < 2050, 2000, lar3$bmyear)
 
 ## output: 
