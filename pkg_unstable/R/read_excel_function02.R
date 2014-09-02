@@ -3,6 +3,7 @@
 # Author: richard.zijdeman@iisg.nl
 # Last change:
   # 2014-09-02, changed definition of bmyear: now includes 1950 as benchmark
+  #             changed format of columns being read
   # 2014-04-29, cleaned up file for CRAN
 
 
@@ -19,10 +20,9 @@ read.lar <- function(file) {
                   encoding   = "UTF-8",
                   colClasses = c(rep("integer", 7), rep("character", 4), 
                                  rep("integer", 3), rep("character", 3),
-                                 rep("integer", 2), rep("character", 11),
-                                 rep("integer", 2), "character",
-                                 rep(c("integer", "numeric"), 3),
-                                 rep("character",5)))
+                                 rep("integer", 2), rep("character", 14),
+                                 rep(c("character", "numeric"), 3),
+                                 "character")
   dt  <- data.table(df)
   
   ## issue 1: delete row 1-2 (auxiliairy column headers)
