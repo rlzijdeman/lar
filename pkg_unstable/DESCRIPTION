@@ -1,7 +1,7 @@
 Package: lar
 Type: Package
 Title: History of labour relations package
-Version: 0.1-4
+Version: 0.1-5
 Date: 2014-09-02
 Authors@R: c(person("Richard", "Zijdeman", role = c("aut", "cre"),
   email = "richard.zijdeman@iisg.nl"),
