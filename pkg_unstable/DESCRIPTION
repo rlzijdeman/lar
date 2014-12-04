@@ -1,6 +1,6 @@
 Package: lar
 Type: Package
-Title: History of labour relations package
+Title: History of Labour Relations
 Version: 0.1-5
 Date: 2014-09-02
 Authors@R: c(person("Richard", "Zijdeman", role = c("aut", "cre"),
@@ -9,7 +9,7 @@ Authors@R: c(person("Richard", "Zijdeman", role = c("aut", "cre"),
   email = "josem.lana@unavarra.es"),
   person("Jordi", "Warmenhoven", role = "ctb",
   email = "jordi.warmenhoven@gmail.com"))
-Description: This package is intended for researchers studying historical labour relations (see http://www.historyoflabourrelations.org). The package allows for easy access of excel files in the standard defined by the Global Collaboratory on the History of Labour Relations. The package also allows for visualisation of labour relations according to the Collaboratory's format.
+Description: The Global Collaboratory on the History of Labour Relations uses a pre-formatted excel file to input data  (see http://www.historyoflabourrelations.org). Lar allows you to (1) easily read in this pre-formatted excel data, and (2) also allows you to visualisize labour relations as treemaps according to the Collaboratory's suggested format (e.g. in relation to colours and positioning of leaves).
 Imports: data.table, grid, treemap, xlsx
 License: GPL-3
 Packaged: 2014-04-29 21:03:14 UTC; richard
